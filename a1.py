@@ -11,4 +11,4 @@ pr_c1=counts_c1/len(c1_stud)
 pr_c2=counts_c2/len(c2_buys_comp)
 
 ent=-(pr_c1[0] * math.log2(pr_c1[0]) + pr_c2 * math.log2(pr_c2[0]))
-ent
+print(ent)
